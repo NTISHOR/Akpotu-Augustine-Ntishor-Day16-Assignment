@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Austeen Computers Profile</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.profile {
+			max-width: 800px;
+			margin: 20px auto;
+			padding: 20px;
+			background-color: #f9f9f9;
+			border: 1px solid #ddd;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			transition: all 0.3s ease-in-out;
+		}
+		
+		.profile:hover {
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+			transform: scale(1.05);
+		}
+		
+		.profile img {
+			width: 100%;
+			height: auto;
+			margin-bottom: 20px;
+			animation: fade-in 2s;
+			transition: transform 0.3s ease-in-out;
+		}
+		
+		.profile img:hover {
+			transform: scale(1.1);
+		}
+		
+		.profile h2 {
+			font-size: 24px;
+			margin-bottom: 10px;
+			animation: slide-in 2s;
+		}
+		
+		.profile p {
+			font-size: 18px;
+			margin-bottom: 20px;
+			animation: fade-in 2s;
+		}
+		
+		.profile ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
+		
+		.profile li {
+			margin-bottom: 10px;
+		}
+		
+		.profile a {
+			text-decoration: none;
+			color: #337ab7;
+			transition: color 0.2s ease-in-out;
+		}
+		
+		.profile a:hover {
+			color: #23527c;
+		}
+		
+		.button {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color 0.3s ease-in-out;
+		}
+		
+		.button:hover {
+			background-color: #3e8e41;
+		}
+		
+		@keyframes fade-in {
+			0% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1;
+			}
+		}
+		
+		@keyframes slide-in {
+			0% {
+				transform: translateX(-100px);
+			}
+			100% {
+				transform: translateX(0);
+			}
+		}
+		
+		@media (max-width: 768px) {
+			.profile {
+				max-width: 90%;
+				padding: 10px;
+			}
+			.profile img {
+				margin-bottom: 10px;
+			}
+			.profile h2 {
+				font-size: 20px;
+			}
+			.profile p {
+				font-size: 16px;
+			}
+		}
+		
+		@media (max-width: 480px) {
+			.profile {
+				padding: 5px;
+			}
+			.profile img {
+				margin-bottom: 5px;
+			}
+			.profile h2 {
+				font-size: 18px;
+			}
+			.profile p {
+				font-size: 14px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="profile">
+		<img src="image.jpg" alt="Austeen Computers Profile Image">
+		<h2>AUSTEEN COMPUTERS</h2>
+		<p>AKPOTU AUGSTINE NTISHOR</p>
+		<ul>
+			<li><b>Contact Info:</b></li>
+			<li>Email: <a href="mailto:akpotuausteen@gmail.com">akpotuausteen@gmail.com</a></li>
+			<li>Phone: <a href="tel:+2347064820492">07064820492</a></li>
+		</ul>
+		<button class="button">Contact Us</button>
+	</div>
+</body>
+</html>
